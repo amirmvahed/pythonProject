@@ -33,3 +33,21 @@
 # d = 1 + 2j
 # print(d)
 
+
+# Arithmetic
+# x = 10 + 3
+# x = 10 - 3
+# x = 10 * 3
+# / get float number
+# x = 10 / 3
+# // get division in format of int
+# x = 10 // 3
+# remainder of division
+# x = 10 % 3
+# power
+# x = 10 ** 3
+
+# x = x + 1
+# x += 1
+# we dont have x++ or x--
+# print(x)

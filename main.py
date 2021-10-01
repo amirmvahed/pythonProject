@@ -51,3 +51,15 @@
 # x += 1
 # we dont have x++ or x--
 # print(x)
+
+# use_ful function to work with numbers
+# we dont have constant variables in py and write uppercase to understand that this variable should not change
+# for all functions https://docs.python.org/3/library/functions.html
+# for all math modules https://docs.python.org/3/library/math.html
+PI = -3.14
+print(round(PI))
+print(abs(PI))
+
+import math
+
+print(math.floor(PI))

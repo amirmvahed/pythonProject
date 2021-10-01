@@ -157,16 +157,26 @@
 
 # Functions
 # we can return multiple value in py
-def increment(number, by=1):
-    return number, number + by
+# def increment(number, by=1):
+#     return number, number + by
+#
+#
+# print(increment(2, by=2))
+#
+#
+# # set type for arguments and return
+# def increment(number: str, by: str = "a") -> tuple:
+#     return number, number + by
+#
+#
+# print(increment('amir', by='vahed'))
 
-
-print(increment(2, by=2))
-
-
-# set type for arguments and return
-def increment(number: str, by: str = "a") -> tuple:
-    return number, number + by
-
-
-print(increment('amir', by='vahed'))
+# arguments - xargs
+# def multiply(*list):
+#     total = 1
+#     for x in list:
+#         total *= x
+#     return total
+#
+#
+# print(multiply(2, 3, 4))

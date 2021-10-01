@@ -190,3 +190,19 @@
 #
 #
 # save_user(id=1, name='mosh')
+
+# FizzBuzz
+
+def fizz_buzz(number):
+    if type(number) != int and type(number) != float:
+        return 'not a number'
+    if number % 3 == 0 and number % 5 == 0:
+        return "fizzBuzz"
+    if number % 3 == 0:
+        return 'fizz'
+    if number % 5 == 0:
+        return 'buzz'
+    return number
+
+
+print(fizz_buzz(7))

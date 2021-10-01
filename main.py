@@ -81,12 +81,24 @@
 
 # Conditional statement
 
-age = 10
+# age = 10
 # == != >= ...
-if age >= 18:
-    print('Adult')
-    # pass ==> for empty if
-elif age >= 13:
-    print('Teenager')
-else:
-    print('Child')
+# if age >= 18:
+#     print('Adult')
+#     # pass ==> for empty if
+# elif age >= 13:
+#     print('Teenager')
+# else:
+#     print('Child')
+
+# Logical operators
+# and or not
+
+# name = " "
+# if not name.strip():
+#     print('name in Empty')
+#
+# age = 22
+# if 18 <= age < 50:
+#     print('ok')
+# instead of and operator

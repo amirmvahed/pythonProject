@@ -56,10 +56,25 @@
 # we dont have constant variables in py and write uppercase to understand that this variable should not change
 # for all functions https://docs.python.org/3/library/functions.html
 # for all math modules https://docs.python.org/3/library/math.html
-PI = -3.14
-print(round(PI))
-print(abs(PI))
+# PI = -3.14
+# print(round(PI))
+# print(abs(PI))
+#
+# import math
+#
+# print(math.floor(PI))
 
-import math
 
-print(math.floor(PI))
+# Convert type
+# x = input('x: ')
+#
+# print(int(x))
+# print(float(x))
+# print(bool(x))
+# str()
+
+# Falsy value
+# ""
+# 0
+# []
+# None (null)

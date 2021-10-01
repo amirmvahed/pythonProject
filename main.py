@@ -102,3 +102,8 @@
 # if 18 <= age < 50:
 #     print('ok')
 # instead of and operator
+
+# Ternary operator (liner conditional)
+# age = 22
+# message = 'eligible' if age > 18 else 'not eligible'
+# print(message)

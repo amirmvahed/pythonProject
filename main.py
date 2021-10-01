@@ -78,3 +78,15 @@
 # 0
 # []
 # None (null)
+
+# Conditional statement
+
+age = 10
+# == != >= ...
+if age >= 18:
+    print('Adult')
+    # pass ==> for empty if
+elif age >= 13:
+    print('Teenager')
+else:
+    print('Child')

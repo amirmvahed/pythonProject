@@ -180,3 +180,13 @@
 #
 #
 # print(multiply(2, 3, 4))
+
+# arguments - xxargs
+
+# def save_user(**user):
+#     print(user)
+#     print(user['id'])
+#     print(user['name'])
+#
+#
+# save_user(id=1, name='mosh')

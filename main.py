@@ -110,46 +110,63 @@
 
 # Loops
 
-for x in 'Python':
-    print(x)
+# for x in 'Python':
+#     print(x)
+#
+# for x in ['a', 'b', 'c']:
+#     print('x')
+#
+# for x in range(5):
+#     print(x)
+# for x in range(2, 5):
+#     print(x)
+# #             start, end, step
+# for x in range(1, 10, 2):
+#     print(x)
+# # range is not a list try type() function
+#
+# # for - else
+# names = ["John", "Mosh"]
+# for name in names:
+#     if name.startswith('J'):
+#         print('Found')
+#         break
+# else:
+#     print('not Found')
+#
+# # instead of
+# found = False
+# for name in names:
+#     if name.startswith('J'):
+#         print('Found')
+#         found = True
+#         break
+# if not found:
+#     print('not Found')
+#
+# # while
+#
+# guess = 0
+# current = 3
+#
+# while guess != 3:
+#     guess = int(input('guess: '))
+# else:
+#     pass
 
-for x in ['a', 'b', 'c']:
-    print('x')
 
-for x in range(5):
-    print(x)
-for x in range(2, 5):
-    print(x)
-#             start, end, step
-for x in range(1, 10, 2):
-    print(x)
-# range is not a list try type() function
+# Functions
+# we can return multiple value in py
+def increment(number, by=1):
+    return number, number + by
 
-# for - else
-names = ["John", "Mosh"]
-for name in names:
-    if name.startswith('J'):
-        print('Found')
-        break
-else:
-    print('not Found')
 
-# instead of
-found = False
-for name in names:
-    if name.startswith('J'):
-        print('Found')
-        found = True
-        break
-if not found:
-    print('not Found')
+print(increment(2, by=2))
 
-# while
 
-guess = 0
-current = 3
+# set type for arguments and return
+def increment(number: str, by: str = "a") -> tuple:
+    return number, number + by
 
-while guess != 3:
-    guess = int(input('guess: '))
-else:
-    pass
+
+print(increment('amir', by='vahed'))

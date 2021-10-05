@@ -137,3 +137,13 @@
 # print(queue)
 # if not queue:
 #     print('Empty')
+
+# Tuple Like list but only tuple in readonly
+# point = 1, 2
+# print(type(point))
+# point1 = (1, 2)
+# point2 = tuple([1, 2, 3])
+# print(point2)
+# point3 = tuple('Hello world')
+# print(point3)
+# print(point3[0:3])

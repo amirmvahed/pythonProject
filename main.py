@@ -78,3 +78,12 @@
 #
 # items.sort(key=item_sort, reverse=True)
 # print(items)
+
+# Map function
+# items = [
+#     ('card1', 16),
+#     ('card2', 10),
+#     ('card3', 13),
+# ]
+# prices = list(map(lambda item: item[1], items))
+# print(prices)

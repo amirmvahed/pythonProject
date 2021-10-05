@@ -111,9 +111,17 @@
 # # instead filter
 
 # zip function
-list1 = [1, 2, 3]
-list2 = [10, 20, 30]
-print(list(zip('abc', list1, list2)))
+# list1 = [1, 2, 3]
+# list2 = [10, 20, 30]
+# print(list(zip('abc', list1, list2)))
+#
+# # instead
+# list3 = [('a', 1, 10), ('b', 2, 20), ('c', 3, 30)]
 
-# instead
-list3 = [('a', 1, 10), ('b', 2, 20), ('c', 3, 30)]
+# Stack
+browsing_session = []
+browsing_session.append(1)
+browsing_session.append(2)
+browsing_session.pop()
+if not browsing_session:
+    browsing_session[-1]

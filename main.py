@@ -45,3 +45,10 @@
 # letters.remove('b')
 # del letters[0:2]
 # print(letters)
+
+# Finding an items
+letters = ['a', 'b', 'c']
+print(letters.count('b'))
+
+if 'd' in letters:
+    print(letters.index('d'))

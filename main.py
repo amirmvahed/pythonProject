@@ -47,8 +47,34 @@
 # print(letters)
 
 # Finding an items
-letters = ['a', 'b', 'c']
-print(letters.count('b'))
+# letters = ['a', 'b', 'c']
+# print(letters.count('b'))
+#
+# if 'd' in letters:
+#     print(letters.index('d'))
 
-if 'd' in letters:
-    print(letters.index('d'))
+# Sorting List
+# numbers = [1, 10, 68, 4, 51]
+# numbers.sort(reverse=True)
+# print(sorted(numbers, reverse=True))
+# print(numbers)
+
+# Sorting items
+# items = [
+#     ('card1', 16),
+#     ('card2', 10),
+#     ('card3', 13),
+# ]
+#
+# # lambda function
+# # lambda parameters:expression
+# items.sort(key=lambda item: item[1])
+#
+#
+# # instead
+# def item_sort(item):
+#     return item[1]
+#
+#
+# items.sort(key=item_sort, reverse=True)
+# print(items)

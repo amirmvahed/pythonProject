@@ -96,3 +96,16 @@
 # ]
 # prices = list(filter(lambda item: item[1] > 11, items))
 # print(prices)
+
+# List comprehension
+# items = [
+#     ('card1', 16),
+#     ('card2', 10),
+#     ('card3', 13),
+# ]
+# # [expression for item in items]
+# print([item[1] for item in items])
+# # instead map
+#
+# print([item for item in items if item[1] > 11])
+# # instead filter

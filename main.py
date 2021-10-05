@@ -87,3 +87,12 @@
 # ]
 # prices = list(map(lambda item: item[1], items))
 # print(prices)
+
+# filter function
+# items = [
+#     ('card1', 16),
+#     ('card2', 10),
+#     ('card3', 13),
+# ]
+# prices = list(filter(lambda item: item[1] > 11, items))
+# print(prices)

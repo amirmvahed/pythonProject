@@ -118,10 +118,22 @@
 # # instead
 # list3 = [('a', 1, 10), ('b', 2, 20), ('c', 3, 30)]
 
-# Stack
-browsing_session = []
-browsing_session.append(1)
-browsing_session.append(2)
-browsing_session.pop()
-if not browsing_session:
-    browsing_session[-1]
+# Stack lifo(last in first out)
+# browsing_session = []
+# browsing_session.append(1)
+# browsing_session.append(2)
+# browsing_session.pop()
+# if not browsing_session:
+#     browsing_session[-1]
+
+# Queue fifo(first in first out)
+# from collections import deque
+#
+# queue = deque([])
+# queue.append(1)
+# queue.append(2)
+# queue.append(3)
+# queue.popleft()
+# print(queue)
+# if not queue:
+#     print('Empty')

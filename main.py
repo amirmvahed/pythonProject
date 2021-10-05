@@ -25,3 +25,8 @@
 # first, second, *others = numbers
 # print(first)
 # print(others)
+
+# letters = ['a', 'b', 'c']
+#
+# for index, letter in enumerate(letters):
+#     print(index, letter)

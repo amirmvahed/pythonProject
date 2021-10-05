@@ -30,3 +30,18 @@
 #
 # for index, letter in enumerate(letters):
 #     print(index, letter)
+
+
+# Add or Remove in list
+
+# letters = ['a', 'b', 'c']
+# # Add
+# letters.append('d')
+# letters.insert(1, '-')
+#
+# # Delete
+# letters.pop(3)
+# # first b, if you need to delete all b use for loop
+# letters.remove('b')
+# del letters[0:2]
+# print(letters)
